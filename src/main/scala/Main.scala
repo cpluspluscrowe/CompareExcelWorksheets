@@ -75,10 +75,12 @@ object Main {
       constructionActivity = GetNextConstructionActivity(constructionActivity,i,sheet);
       if(!facility.map.contains(constructionActivity)){
         facility.map += (constructionActivity -> new ArrayBuffer[String]())
-      }
-      val isTogAtRow = IsTogAtRow(sheet,i,togColumnLetter);
-      if(isTogAtRow._1){
-        facility.map(constructionActivity) += isTogAtRow._2;
+      }else{
+        //Must be new Ca before we add Togs
+        val isTogAtRow = IsTogAtRow(sheet,i,togColumnLetter);
+        if(isTogAtRow._1){
+          facility.map(constructionActivity) += isTogAtRow._2;
+        }
       }
     }
     return facility;
@@ -98,7 +100,9 @@ object Main {
   def CompareTogs(togs:Map[String,ArrayBuffer[String]],combined:Map[String,ArrayBuffer[String]]): Unit ={
     for((k,v) <- togs){
       if(!combined.contains(k)){
-        println("Combined missing: " + k);
+        if(k != "Optional Construction Activities"){
+          println("Combined missing: " + k);
+        }
       }else{
         for(tog <- togs(k)){
           if(!combined(k).contains(tog)){
@@ -114,12 +118,15 @@ object Main {
     for(excelFolder <- files){
       val excelFiles = GetExcelFileWithinFolder(excelFolder);
       for(excelFile <- excelFiles){
-        val workbook:XSSFWorkbook = new XSSFWorkbook(OPCPackage.open(excelFile));
-        val name = GetName(workbook);
-        val togs = GetTogs(workbook,"TOGS","C");
-        val drawTogs = GetTogs(workbook,"Drawings and TOGS","E");
-        CompareTogs(togs.map,drawTogs.map);
-        CompareTogs(drawTogs.map,togs.map);
+        if(!excelFile.toString.contains("~")){
+          val workbook:XSSFWorkbook = new XSSFWorkbook(OPCPackage.open(excelFile));
+          val name = GetName(workbook);
+          val togs = GetTogs(workbook,"TOGS","C");
+          val drawTogs = GetTogs(workbook,"Drawings and TOGS","E");
+          println(GetName(workbook));
+          CompareTogs(togs.map,drawTogs.map);
+          CompareTogs(drawTogs.map,togs.map);
+        }
       }
     }
   }
