@@ -53,7 +53,7 @@ object Main {
     val row = sheet.getRow(i);
     val colCCellRef:CellReference = new CellReference(togColumnLetter + i.toString);
     var togCell = row.getCell(colCCellRef.getCol);
-    if(togCell == null || togCell == ""){
+    if(togCell == null){
       togCell = row.createCell(colACellRef.getCol);
     }
     val formatter = new DataFormatter
