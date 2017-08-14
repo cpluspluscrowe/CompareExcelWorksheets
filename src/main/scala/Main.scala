@@ -34,7 +34,7 @@ object Main {
   }
   def GetNextConstructionActivity(currentCa:String,i:Int,sheet:XSSFSheet): String = {
     val colACellRef: CellReference = new CellReference("A" + i.toString);
-    val row = sheet.getRow(i);
+    val row = sheet.getRow(colACellRef.getRow);
     if(row == null){
       return currentCa;
     }
@@ -71,7 +71,9 @@ object Main {
     val facility = new Facility();
     val sheet:XSSFSheet = workbook.getSheet(worksheetName);
     var constructionActivity:String = null;
+    val lastRow = sheet.getLastRowNum;
     for(i <- 2.to(sheet.getLastRowNum)){
+      println("Row: " + i.toString);
       constructionActivity = GetNextConstructionActivity(constructionActivity,i,sheet);
       if(!facility.map.contains(constructionActivity)){
         facility.map += (constructionActivity -> new ArrayBuffer[String]())
@@ -80,6 +82,7 @@ object Main {
         val isTogAtRow = IsTogAtRow(sheet,i,togColumnLetter);
         if(isTogAtRow._1){
           facility.map(constructionActivity) += isTogAtRow._2;
+          println("Ca: " + constructionActivity + "Tog: " + isTogAtRow._2);
         }
       }
     }
@@ -120,10 +123,10 @@ object Main {
       for(excelFile <- excelFiles){
         if(!excelFile.toString.contains("~")){
           val workbook:XSSFWorkbook = new XSSFWorkbook(OPCPackage.open(excelFile));
+          println(GetName(workbook));
           val name = GetName(workbook);
           val togs = GetTogs(workbook,"TOGS","C");
           val drawTogs = GetTogs(workbook,"Drawings and TOGS","E");
-          println(GetName(workbook));
           CompareTogs(togs.map,drawTogs.map);
           CompareTogs(drawTogs.map,togs.map);
         }
