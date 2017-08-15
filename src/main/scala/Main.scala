@@ -72,8 +72,7 @@ object Main {
     val sheet:XSSFSheet = workbook.getSheet(worksheetName);
     var constructionActivity:String = null;
     val lastRow = sheet.getLastRowNum;
-    for(i <- 2.to(sheet.getLastRowNum)){
-      println("Row: " + i.toString);
+    for(i <- 2.to(sheet.getLastRowNum + 1)){
       constructionActivity = GetNextConstructionActivity(constructionActivity,i,sheet);
       if(!facility.map.contains(constructionActivity)){
         facility.map += (constructionActivity -> new ArrayBuffer[String]())
@@ -82,7 +81,6 @@ object Main {
         val isTogAtRow = IsTogAtRow(sheet,i,togColumnLetter);
         if(isTogAtRow._1){
           facility.map(constructionActivity) += isTogAtRow._2;
-          println("Ca: " + constructionActivity + "Tog: " + isTogAtRow._2);
         }
       }
     }
@@ -100,12 +98,21 @@ object Main {
     val formattedCellValue = formatter.formatCellValue(cell)
     return formattedCellValue;
   }
+  def RemoveOptionalCa(togs:Map[String,ArrayBuffer[String]]): Unit ={
+    val optional = "Optional Construction Activities";
+    if(togs.contains(optional)){
+      togs.remove(optional);
+    }
+  }
   def CompareTogs(togs:Map[String,ArrayBuffer[String]],combined:Map[String,ArrayBuffer[String]]): Unit ={
+    RemoveOptionalCa(togs);
+    RemoveOptionalCa(combined);
+    if(togs.size != combined.size){
+      println("Different Lengths: " + togs.size.toString + " ;" + combined.size.toString);
+    }
     for((k,v) <- togs){
       if(!combined.contains(k)){
-        if(k != "Optional Construction Activities"){
-          println("Combined missing: " + k);
-        }
+        println("Combined missing: " + k);
       }else{
         for(tog <- togs(k)){
           if(!combined(k).contains(tog)){
@@ -123,11 +130,13 @@ object Main {
       for(excelFile <- excelFiles){
         if(!excelFile.toString.contains("~")){
           val workbook:XSSFWorkbook = new XSSFWorkbook(OPCPackage.open(excelFile));
-          println(GetName(workbook));
+          println("Facility: " + GetName(workbook));
           val name = GetName(workbook);
           val togs = GetTogs(workbook,"TOGS","C");
           val drawTogs = GetTogs(workbook,"Drawings and TOGS","E");
+          println("Checking that combined contains togs");
           CompareTogs(togs.map,drawTogs.map);
+          println("Checking that togs contain combined");
           CompareTogs(drawTogs.map,togs.map);
         }
       }

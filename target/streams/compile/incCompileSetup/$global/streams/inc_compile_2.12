@@ -51,7 +51,7 @@ C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Facility
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Main
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Main$
 used names:
-107 items
+132 items
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> !=
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> &&
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> +
@@ -59,7 +59,9 @@ C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> +=
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> ->
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> <init>
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> <repeated>
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> ==
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> A
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> A1
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Any
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> AnyRef
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Array
@@ -70,19 +72,29 @@ C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> B
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Boolean
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Cell
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> CellReference
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> CharSequence
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> CompareTogs
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> DataFormatter
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Facility
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> File
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> FilterMonadic
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Function1
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> GetExcelFileWithinFolder
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> GetListInDir
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> GetName
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> GetNextConstructionActivity
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> GetTogs
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Inclusive
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Int
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> IsTogAtRow
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Main
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Map
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> MatchError
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Nothing
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Null
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> OPCPackage
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Object
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> OpenExcel
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Predef
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> Range
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> RichInt
@@ -96,23 +108,26 @@ C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> XSSFCell
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> XSSFRow
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> XSSFSheet
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> XSSFWorkbook
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> _1
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> _2
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> apache
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> apply
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> cell
-C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> cellRef
-C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> changesPath
-C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> close
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> colACellRef
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> colCCellRef
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> collection
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> combined
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> constructionActivity
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> contains
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> createCell
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> currentCa
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> drawTogs
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> endsWith
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> excelFile
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> excelFiles
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> excelFolder
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> exists
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> f
-C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> facilities
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> facility
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> file
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> files
@@ -134,10 +149,13 @@ C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> intWrapper
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> io
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> isDirectory
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> isFile
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> isTogAtRow
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> java
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> k
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> listFiles
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> map
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> mutable
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> ne
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> ofRef
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> opc
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> open
@@ -153,20 +171,27 @@ C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> ss
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> to
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> toInt
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> toString
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> tog
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> togCell
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> togColumnLetter
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> togValue
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> togs
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> unary_!
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> unchecked
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> usermodel
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> util
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> withFilter
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> workbook
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> worksheetName
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> xssf
 product stamps:
 3 items
-C:\Users\CCrowe\IdeaProjects\Check_Togs\target\scala-2.12\classes\Facility.class -> lastModified(1502725595574)
-C:\Users\CCrowe\IdeaProjects\Check_Togs\target\scala-2.12\classes\Main$.class -> lastModified(1502725595594)
-C:\Users\CCrowe\IdeaProjects\Check_Togs\target\scala-2.12\classes\Main.class -> lastModified(1502725595577)
+C:\Users\CCrowe\IdeaProjects\Check_Togs\target\scala-2.12\classes\Facility.class -> lastModified(1502799662896)
+C:\Users\CCrowe\IdeaProjects\Check_Togs\target\scala-2.12\classes\Main$.class -> lastModified(1502799662907)
+C:\Users\CCrowe\IdeaProjects\Check_Togs\target\scala-2.12\classes\Main.class -> lastModified(1502799662902)
 source stamps:
 1 items
-C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> hash(0e1602cdc6e5094820227a4b3171d3c7a2de76ce)
+C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> hash(97b2c2f22dca36fe3b58252098164f7bca56bbf2)
 binary stamps:
 4 items
 C:\Java\jdk1.8.0_121\jre\lib\rt.jar -> lastModified(1488991881000)
@@ -176,13 +201,13 @@ C:\Users\CCrowe\IdeaProjects\Check_Togs\lib\poi-ooxml-3.15.jar -> lastModified(1
 class names:
 4 items
 C:\Java\jdk1.8.0_121\jre\lib\rt.jar -> java.lang.Object
-C:\Users\CCrowe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar -> scala.Boolean
+C:\Users\CCrowe\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar -> scala.collection.mutable.ArrayBuffer
 C:\Users\CCrowe\IdeaProjects\Check_Togs\lib\poi-3.15.jar -> org.apache.poi.hssf.util.CellReference
-C:\Users\CCrowe\IdeaProjects\Check_Togs\lib\poi-ooxml-3.15.jar -> org.apache.poi.openxml4j.opc.OPCPackage
+C:\Users\CCrowe\IdeaProjects\Check_Togs\lib\poi-ooxml-3.15.jar -> org.apache.poi.xssf.usermodel.XSSFSheet
 internal apis:
 1 items
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwZTIXXwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAdc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw9cM3/HQABm5vdGlmeXNxAH4ADLAYnOt0AAlPcGVuRXhjZWxzcQB+AAzJ/GzTdAAHR2V0VG9nc3NxAH4ADKsuOZV0AAR3YWl0c3EAfgAMLrZBzHQADEdldExpc3RJbkRpcnNxAH4ADJe3aL90AA0kYXNJbnN0YW5jZU9mc3EAfgAM3MVqoHQAA21hcHNxAH4ADIC5Nm90AAZlcXVhbHNzcQB+AAyKbU34dAAMYXNJbnN0YW5jZU9mc3EAfgAMl5xgQ3QAC0dldERyYXdUb2dzc3EAfgAMU9cNA3QADHN5bmNocm9uaXplZHNxAH4ADGiycRx0AA0kaXNJbnN0YW5jZU9mc3EAfgAMuxKPlXQACEZhY2lsaXR5c3EAfgAMIHIejHQABG1haW5zcQB+AAyOqGx9dAAJbm90aWZ5QWxsc3EAfgAMHwU//XQADGlzSW5zdGFuY2VPZnNxAH4ADJQFhXp0AAY8aW5pdD5zcQB+AAzHyuIadAACPT1zcQB+AAy+NGFodAAFY2xvbmVzcQB+AAyapFTpdAAETWFpbnNxAH4ADJ0ph/t0AAh0b1N0cmluZ3NxAH4ADL2jtE90AAIhPXNxAH4ADGgq/V50ABhHZXRFeGNlbEZpbGVXaXRoaW5Gb2xkZXJzcQB+AAw4XiP4dAAIZ2V0Q2xhc3NzcQB+AAxMpKbbdAACbmVzcQB+AAwQLZGfdAACZXFzcQB+AAzr3hSQdAACIyNzcQB+AAxrRigNdAAIZmluYWxpemVzcQB+AAwN0/vRdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBReHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ACd1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AaHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBRTAAJaW5oZXJpdGVkcQB+AFFMAAdwYXJlbnRzcQB+AFF4cQB+AG1zcQB+AGh1cQB+AEwAAAAAc3EAfgBodXEAfgBMAAAAAHNxAH4AaHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AbHQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AbHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AhXQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AhnNxAH4AeXQAA0FueXNxAH4AfXNxAH4AgHVxAH4AgwAAAAJzcQB+AIV0AAVzY2FsYXEAfgCMc3EAfgBOcQB+AFt1cQB+AFwAAAAAc3EAfgBeAHEAfgA1dXEAfgBgAAAAAH5xAH4AYnQABk1vZHVsZXVxAH4AZgAAAABzcQB+AGhxAH4AbnNxAH4AaHNxAH4AcHNxAH4AaHVxAH4ATAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AUnEAfgBbdXEAfgBcAAAAAHNxAH4AXgBxAH4AKXVxAH4AYAAAAABzcQB+AHl0AARVbml0c3EAfgB9c3EAfgCAdXEAfgCDAAAAAnNxAH4AhXEAfgCTcQB+AIx1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgCheHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBjdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgB6WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBsc3EAfgB5dAAFQXJyYXlxAH4AqXVxAH4AdwAAAAFzcQB+AHl0AAZTdHJpbmdzcQB+AH1zcQB+AIB1cQB+AIMAAAADc3EAfgCFcQB+AIhzcQB+AIVxAH4AinEAfgCMc3EAfgBodXEAfgBMAAAAAHNxAH4AaHVxAH4AdwAAAAJzcQB+AHlxAH4AfHEAfgDDc3EAfgB5cQB+AI5xAH4AqXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFd4WzCL3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEFDOlxVc2Vyc1xDQ3Jvd2VcSWRlYVByb2plY3RzXENoZWNrX1RvZ3NcdGFyZ2V0XHNjYWxhLTIuMTJcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFA4WAs3G5QlIICJ6SzFx08ei3nbO
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwVK2pugAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAgc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw9cM3/HQABm5vdGlmeXNxAH4ADLAYnOt0AAlPcGVuRXhjZWxzcQB+AAzygvQRdAAHR2V0VG9nc3NxAH4ADKsuOZV0AAR3YWl0c3EAfgAMLrZBzHQADEdldExpc3RJbkRpcnNxAH4ADJe3aL90AA0kYXNJbnN0YW5jZU9mc3EAfgAM3MVqoHQAA21hcHNxAH4ADIC5Nm90AAZlcXVhbHNzcQB+AAzeaoiOdAAKSXNUb2dBdFJvd3NxAH4ADIptTfh0AAxhc0luc3RhbmNlT2ZzcQB+AAxT1w0DdAAMc3luY2hyb25pemVkc3EAfgAMaLJxHHQADSRpc0luc3RhbmNlT2ZzcQB+AAy7Eo+VdAAIRmFjaWxpdHlzcQB+AAwgch6MdAAEbWFpbnNxAH4ADI6obH10AAlub3RpZnlBbGxzcQB+AAwfBT/9dAAMaXNJbnN0YW5jZU9mc3EAfgAMlAWFenQABjxpbml0PnNxAH4ADMfK4hp0AAI9PXNxAH4ADL40YWh0AAVjbG9uZXNxAH4ADJqkVOl0AARNYWluc3EAfgAMnSmH+3QACHRvU3RyaW5nc3EAfgAMvaO0T3QAAiE9c3EAfgAMaCr9XnQAGEdldEV4Y2VsRmlsZVdpdGhpbkZvbGRlcnNxAH4ADLIa/qV0AAtDb21wYXJlVG9nc3NxAH4ADDheI/h0AAhnZXRDbGFzc3NxAH4ADEykptt0AAJuZXNxAH4ADBAtkZ90AAJlcXNxAH4ADPG9c9V0ABtHZXROZXh0Q29uc3RydWN0aW9uQWN0aXZpdHlzcQB+AAzr3hSQdAACIyNzcQB+AAxrRigNdAAIZmluYWxpemVzcQB+AAwN0/vRdAAIaGFzaENvZGVzcQB+AAzR93NEdAAHR2V0TmFtZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AJ3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBuc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFdMAAlpbmhlcml0ZWRxAH4AV0wAB3BhcmVudHNxAH4AV3hxAH4Ac3NxAH4AbnVxAH4AUgAAAABzcQB+AG51cQB+AFIAAAAAc3EAfgBudXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBydAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgByc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCLdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCMc3EAfgB/dAADQW55c3EAfgCDc3EAfgCGdXEAfgCJAAAAAnNxAH4Ai3QABXNjYWxhcQB+AJJzcQB+AFRxAH4AYXVxAH4AYgAAAABzcQB+AGQAcQB+ADV1cQB+AGYAAAAAfnEAfgBodAAGTW9kdWxldXEAfgBsAAAAAHNxAH4AbnEAfgB0c3EAfgBuc3EAfgB2c3EAfgBudXEAfgBSAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBYcQB+AGF1cQB+AGIAAAAAc3EAfgBkAHEAfgApdXEAfgBmAAAAAHNxAH4Af3QABFVuaXRzcQB+AINzcQB+AIZ1cQB+AIkAAAACc3EAfgCLcQB+AJlxAH4AknVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AKd4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AGl0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AIBbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHJzcQB+AH90AAVBcnJheXEAfgCvdXEAfgB9AAAAAXNxAH4Af3QABlN0cmluZ3NxAH4Ag3NxAH4AhnVxAH4AiQAAAANzcQB+AItxAH4AjnNxAH4Ai3EAfgCQcQB+AJJzcQB+AG51cQB+AFIAAAAAc3EAfgBudXEAfgB9AAAAAnNxAH4Af3EAfgCCcQB+AMlzcQB+AH9xAH4AlHEAfgCvdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV3l1v6hdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQUM6XFVzZXJzXENDcm93ZVxJZGVhUHJvamVjdHNcQ2hlY2tfVG9nc1x0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUl7LC8i3KNv47WCUgmBZPe8pWu/I=
 external apis:
 0 items
 source infos:
@@ -190,5 +215,6 @@ source infos:
 C:\Users\CCrowe\IdeaProjects\Check_Togs\src\main\scala\Main.scala -> 
 AAAAAAAAAAA=
 compilations:
-1 items
+2 items
 0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXeFswi91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XFVzZXJzXENDcm93ZVxJZGVhUHJvamVjdHNcQ2hlY2tfVG9nc1x0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXeXW/qF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQUM6XFVzZXJzXENDcm93ZVxJZGVhUHJvamVjdHNcQ2hlY2tfVG9nc1x0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==

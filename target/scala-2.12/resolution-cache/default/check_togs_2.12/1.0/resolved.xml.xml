@@ -4,7 +4,7 @@
 		module="check_togs_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170814104626"
+		publication="20170815072057"
 	>
 		<description>
 		Check_Togs
@@ -45,8 +45,10 @@
 		<dependency org="org.apache.poi" name="poi-excelant" rev="3.15" conf="compile->default(compile)"/>
 		<dependency org="org.apache.poi" name="poi-ooxml-schemas" rev="3.15" conf="compile->default(compile)"/>
 		<dependency org="org.apache.poi" name="poi-scratchpad" rev="3.15" conf="compile->default(compile)"/>
-		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.6" conf="compile->default(compile)"/>
 		<dependency org="com.norbitltd" name="spoiwo" rev="1.0.6" conf="compile->default(compile)"/>
 		<dependency org="org.apache.xmlbeans" name="xmlbeans" rev="2.3.0" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.3" conf="test->default(compile)"/>
+		<dependency org="org.scalactic" name="scalactic_2.12" rev="3.0.3" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang.modules" name="scala-xml_2.12" rev="1.0.6" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

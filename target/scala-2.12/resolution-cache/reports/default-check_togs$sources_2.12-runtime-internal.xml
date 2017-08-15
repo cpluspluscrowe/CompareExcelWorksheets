@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170814104418"/>
+		date="20170815071646"/>
 	<dependencies>
 		<module organisation="org.apache.poi" name="poi-scratchpad">
 			<revision name="3.15" status="release" pubdate="20160917114844" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
@@ -21,25 +21,13 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.12.1" status="release" pubdate="20161205050923" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="13">
-				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom"/>
-				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/"/>
-				<artifacts>
-					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="988614" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.12.1-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="com.norbitltd" name="spoiwo">
-			<revision name="1.0.6" status="release" pubdate="20140817152614" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/norbert-radyk/spoiwo/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+			<revision name="1.0.6" status="release" pubdate="20140817152614" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/norbert-radyk/spoiwo/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
 				<license name="MIT-License" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="4210" time="0" location="C:\Users\CCrowe\.ivy2\cache\com.norbitltd\spoiwo\ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/norbitltd/spoiwo/1.0.6/spoiwo-1.0.6.pom"/>
 				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="spoiwo" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="34352" time="433" location="C:\Users\CCrowe\.ivy2\cache\com.norbitltd\spoiwo\srcs\spoiwo-1.0.6-sources.jar">
+					<artifact name="spoiwo" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="34352" time="0" location="C:\Users\CCrowe\.ivy2\cache\com.norbitltd\spoiwo\srcs\spoiwo-1.0.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/norbitltd/spoiwo/1.0.6/spoiwo-1.0.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -58,7 +46,7 @@
 			</revision>
 		</module>
 		<module organisation="joda-time" name="joda-time">
-			<revision name="2.3" status="release" pubdate="20130816123125" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+			<revision name="2.3" status="release" pubdate="20130816123125" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="6572" time="0" location="C:\Users\CCrowe\.ivy2\cache\joda-time\joda-time\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom"/>
 				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.0"/>
@@ -69,14 +57,50 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
-			<revision name="1.0.6" status="release" pubdate="20160920042614" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.6" status="release" pubdate="20161101092105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="no" details="" size="3175" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6.pom"/>
+				<metadata-artifact status="no" details="" size="3175" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
 				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="109202" time="207" location="C:\Users\CCrowe\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\srcs\scala-xml_2.11-1.0.6-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6-sources.jar"/>
+					<artifact name="scala-xml_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109199" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\srcs\scala-xml_2.12-1.0.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.12">
+			<revision name="3.0.3" status="release" pubdate="20170420042901" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3002" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.scalactic\scalactic_2.12\ivy-3.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.3/scalactic_2.12-3.0.3.pom"/>
+				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="3.0.3" rev-constraint-default="3.0.3" rev-constraint-dynamic="3.0.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalactic_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="201082" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.scalactic\scalactic_2.12\srcs\scalactic_2.12-3.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.3/scalactic_2.12-3.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.1" status="release" pubdate="20161205050619" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.pom"/>
+				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="572951" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.12.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.1" status="release" pubdate="20161205050923" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="13">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom"/>
+				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="988614" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.12.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -87,34 +111,14 @@
 				<metadata-artifact status="no" details="" size="2985" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.apache.poi\poi-excelant\ivy-3.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-excelant/3.15/poi-excelant-3.15.pom"/>
 				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="3.15" rev-constraint-default="3.15" rev-constraint-dynamic="3.15" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="poi-excelant" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="32147" time="532" location="C:\Users\CCrowe\.ivy2\cache\org.apache.poi\poi-excelant\srcs\poi-excelant-3.15-sources.jar">
+					<artifact name="poi-excelant" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32147" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.apache.poi\poi-excelant\srcs\poi-excelant-3.15-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-excelant/3.15/poi-excelant-3.15-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.apache.ant" name="ant">
-			<revision name="1.8.2" status="release" pubdate="20101227101008" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
-				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3026" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.apache.ant\ant\ivy-1.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/ant/ant/1.8.2/ant-1.8.2.pom"/>
-				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="ant" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.ant" name="ant-launcher">
-			<revision name="1.8.2" status="release" pubdate="20101227101327" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
-				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="2702" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.apache.ant\ant-launcher\ivy-1.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.pom"/>
-				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="ant-launcher" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.apache.poi" name="poi-ooxml">
-			<revision name="3.15" status="release" pubdate="20160917114821" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="9">
+			<revision name="3.15" status="release" pubdate="20160917114821" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="10">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3025" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.apache.poi\poi-ooxml\ivy-3.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.15/poi-ooxml-3.15.pom"/>
 				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="3.15" rev-constraint-default="3.15" rev-constraint-dynamic="3.15" callerrev="1.0"/>
@@ -126,7 +130,7 @@
 			</revision>
 		</module>
 		<module organisation="com.github.virtuald" name="curvesapi">
-			<revision name="1.04" status="release" pubdate="20160525232706" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/virtuald/curvesapi" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="7">
+			<revision name="1.04" status="release" pubdate="20160525232706" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/virtuald/curvesapi" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="9">
 				<license name="BSD License" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="2974" time="0" location="C:\Users\CCrowe\.ivy2\cache\com.github.virtuald\curvesapi\ivy-1.04.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.pom"/>
 				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.04" rev-constraint-default="1.04" rev-constraint-dynamic="1.04" callerrev="1.0"/>
@@ -138,7 +142,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.poi" name="poi">
-			<revision name="3.15" status="release" pubdate="20160917114746" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="10">
+			<revision name="3.15" status="release" pubdate="20160917114746" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="11">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3372" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.apache.poi\poi\ivy-3.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi/3.15/poi-3.15.pom"/>
 				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="3.15" rev-constraint-default="3.15" rev-constraint-dynamic="3.15" callerrev="1.0"/>
@@ -150,7 +154,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-collections4">
-			<revision name="4.1" status="release" pubdate="20151125155515" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-collections/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+			<revision name="4.1" status="release" pubdate="20151125155515" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-collections/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="3">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="11589" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.apache.commons\commons-collections4\ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.pom"/>
 				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.0"/>
@@ -162,7 +166,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-codec" name="commons-codec">
-			<revision name="1.10" status="release" pubdate="20141106081535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="6">
+			<revision name="1.10" status="release" pubdate="20141106081535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="8">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="10706" time="0" location="C:\Users\CCrowe\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
 				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="1.0"/>
@@ -174,24 +178,24 @@
 			</revision>
 		</module>
 		<module organisation="commons-logging" name="commons-logging">
-			<revision name="1.2" status="release" pubdate="20140705131228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+			<revision name="1.2" status="release" pubdate="20140705131228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="5">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="11725" time="0" location="C:\Users\CCrowe\.ivy2\cache\commons-logging\commons-logging\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
 				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="73295" time="187" location="C:\Users\CCrowe\.ivy2\cache\commons-logging\commons-logging\srcs\commons-logging-1.2-sources.jar">
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73295" time="0" location="C:\Users\CCrowe\.ivy2\cache\commons-logging\commons-logging\srcs\commons-logging-1.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="log4j" name="log4j">
-			<revision name="1.2.17" status="release" pubdate="20120526044339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+			<revision name="1.2.17" status="release" pubdate="20120526044339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3708" time="0" location="C:\Users\CCrowe\.ivy2\cache\log4j\log4j\ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
 				<caller organisation="default" name="check_togs$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="481200" time="359" location="C:\Users\CCrowe\.ivy2\cache\log4j\log4j\srcs\log4j-1.2.17-sources.jar">
+					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="481200" time="0" location="C:\Users\CCrowe\.ivy2\cache\log4j\log4j\srcs\log4j-1.2.17-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
 					</artifact>
 				</artifacts>

@@ -28,9 +28,16 @@ libraryDependencies += "org.apache.poi" % "poi-excelant" % "3.15"
 libraryDependencies += "org.apache.poi" % "poi-ooxml-schemas" % "3.15"
 // https://mvnrepository.com/artifact/org.apache.poi/poi-scratchpad
 libraryDependencies += "org.apache.poi" % "poi-scratchpad" % "3.15"
-// https://mvnrepository.com/artifact/org.scala-lang.modules/scala-xml_2.11
-libraryDependencies += "org.scala-lang.modules" % "scala-xml_2.11" % "1.0.6"
 // https://mvnrepository.com/artifact/com.norbitltd/spoiwo
 libraryDependencies += "com.norbitltd" % "spoiwo" % "1.0.6"
 // https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans
 libraryDependencies += "org.apache.xmlbeans" % "xmlbeans" % "2.3.0"
+
+
+// https://mvnrepository.com/artifact/org.scalatest/scalatest_2.12
+libraryDependencies += "org.scalatest" % "scalatest_2.12" % "3.0.3" % "test"
+// https://mvnrepository.com/artifact/org.scalactic/scalactic_2.12
+libraryDependencies += "org.scalactic" % "scalactic_2.12" % "3.0.3"
+
+// https://mvnrepository.com/artifact/org.scala-lang.modules/scala-xml_2.12
+libraryDependencies += "org.scala-lang.modules" % "scala-xml_2.12" % "1.0.6"
